@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="keywords" content="bim2021, coverpage, sxc bim coverpage, sxc, st.xavier's college bim">
+    <meta name="description" content="This website is for st.xavier's college bim batch 2021.">
+    <meta name="author" content="Jugal Shrestha">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--For File-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+    <!--font-family: 'Open Sans', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <title>BIM2021</title>
+
+</head>
+<body>
+    <!--Start of Loading page-->
+    <section class="loading-screen">
+        <div class="loading-animation"></div>
+    </section>
+    <!--End of Loading page-->
+    
+    <!--Start of everything-->
+    <section class="everything">
+        <!--For background of landing page-->
+        <section class="landing-page-background">
+            <!--Start of nav bar-->
+            <section class="nav-bar">
+                <ul class="nav-options">
+                    <li class="logo">
+                        BIM2021
+                        <!-- <img src="images/logo-white.png" alt=""> -->
+                    </li>
+                    <!--For pc only-->
+                    <div class="pc-options">
+                        <li class="nav-option" id="clickable-tag">Projects</li>
+                        <li class="nav-option" id="clickable">Routine</li>
+                        <li class="nav-option" id="clickable-tag">Notes</li>
+                        <a target="_blank" href="https://github.com/JugalShrestha/bim21/blob/main/README.md#help" class="nav-option">Help</a>
+                    </div>
+                    <!--For mobile only-->
+                    <div class="mobile-options">
+                        <li class="nav-mobile">
+                            <img src="images/menu-bar.png" alt="">
+                        </li>
+                        <div class="mobile-menu">
+                            <div class="close-nav-mobile">&Cross;</div>
+                            <div class="nav-option-m" id="clickable-tag">Projects</div>
+                            <div class="nav-option-m" id="clickable">Routine</div>
+                            <div class="nav-option-m" id="clickable-tag">Notes</div>
+                            <div class="nav-option-m">Help</div>
+                        </div>
+                    </div>
+                </ul>
+            </section>
+            <!--End of nav bar-->
+
+            <!--Start of landing page-->
+            <section class="hero-page">
+                <div class="hero-page-slogan">
+                    <span>Search here ↓</span><br>
+                    Find anything that you need 
+                </div>
+                <!--Start of Search part-->
+                <section class="search-part">
+                    <div class="text-input">
+                        <input autocomplete="off" placeholder="For eg. Class Routine" type="text" name="search" id="search-id">
+                    </div>
+                    <div class="search-btn">
+                        <div class="search-txt">
+                            Search
+                        </div>
+                        <div class="search-image">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                            </svg>                              
+                        </div>
+                    </div>
+                </section>
+                <!--End of Search part-->
+            </section>
+            <!--End of landing page-->
+        </section>
+
+        <!--Start of loading page-->
+        <section class="loading-page">
+            <div class="loading-animation"></div>
+        </section>
+        <!--End of Loading page-->
+
+        <!--Start of Everything link-->
+        <section class="every-projects-link">
+            <div class="header">
+                <div class="main-header">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                      </svg> everything is here!
+                </div>
+                <div class="sub-header">
+                    This is the compilation of everything we offer!
+                </div>
+            </div>
+            <div class="every-projects-body"></div>
+        </section>
+        <!--End of Everything link-->
+
+        <!-----------------------Start of Search page------------------->
+        <section class="search-page">
+            <div class="go-back-btn">go back</div>
+            <div class="header">
+                <div class="main-header">
+                    Search Result:
+                </div>
+                <div class="sub-header"></div>
+            </div>
+            <div class="search-results"></div>
+        </section>
+        <!------------------------End of Search page------------------------->
+
+        <!------------------Start NOthing page found part-->
+        <div class="nothing-page-found-page">
+            <div class="go-back-btn">go back</div>
+            <div class="text">coming soon</div>
+        </div>
+        <!-------------------End Nothign page found part-->
+
+        <!-----------Start of Coverpage Generator------------------------------->
+        <section class="cover-page-generator-page" id="page">
+            <div class="go-back-btn">go back</div>
+            <div class="header">
+                <div class="main-header">
+                    Coverpage Generator
+                </div>
+                <div class="sub-header">
+                    This is for the automation of coverpage for BIM2021 only!
+                </div>
+            </div>
+            <!--Start of Generator Card-->
+            <div class="generator-whole">
+                <!--Start Of Generator Body-->
+                <div class="generator-body">
+                    <div class="input-field">
+                        <!--Roll No taker-->
+                        <div class="roll-no">
+                            <div class="header">Roll No:</div>
+                            <div class="selector-wraper">
+                                <select class="roll-no-selector">
+                                </select>
+                            </div>
+                        </div>
+                        <!--Subject taker-->
+                        <div class="subject">
+                            <div class="header">Subject:</div>
+                            <select class="subject-selector">
+                            </select>
+                        </div>
+                        <!-- Report no taker -->
+                        <div class="report-no-selector">
+                            <div class="header">Report No:</div>
+                            <input autocomplete="off" placeholder="For eg: 12" type="text" name="report-no">
+                        </div>
+                        <!--Title Taker-->
+                        <div class="title-selector">
+                            <div class="header">Title:</div>
+                            <input placeholder="For eg: Report on..." type="text">
+                        </div>
+                        <button type="submit" class="download">
+                            Download
+                        </button>
+                        <div class="pdf-to-docx-link">
+                            <div class="header">Convert .pdf to .docx ↓</div>
+                            <a href="https://pdf2docx.com" target="_blank" rel="noopener noreferrer">pdf2docx.com</a>
+                        </div>
+                    </div>
+                    <!--Start of Sample PDF-->
+                    <!--Output-->
+                    <div class="output">
+                        <div class="top-part">
+                            <div class="college-name">St. Xavier's College</div>
+                            <div class="address">Maitighar, Kathmandu</div>
+                            <div class="affiliated">(Affiliated to Tribhuvan University)</div>
+                        </div>
+                        <div class="logo">
+                            <img src="images/college-logo.jpg" alt="">
+                        </div>
+                        <div class="titles">
+                            <div class="department">(Department of Computer Science)</div>
+                            <div class="subject-title">subject</div>    
+                            <div class="lines">
+                                <img src="images/middle-line.png" alt="middle-line">
+                            </div>
+                            <div class="report-no">Lab Report</div>
+                            <div class="title">title</div>
+                        </div>
+                        <div class="submition-field">
+                            <div class="submitted-by">
+                                <div class="header">
+                                    submitted by:
+                                </div>
+                                <div class="body">
+                                    <div class="name">
+                                        ..
+                                    </div>
+                                    <div class="department">
+                                        BIM 3rd semester
+                                    </div>
+                                    <div class="roll-number">
+                                        ..
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="submitted-to">
+                                <div class="header">
+                                    submitted to:
+                                </div>
+                                <div class="body">
+                                    <div class="name">
+                                        ..
+                                    </div>
+                                    <div class="title">
+                                        ..
+                                    </div>
+                                    <div class="department">
+                                        ..
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="signature">
+                                <div class="header">
+                                    Signature
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End of Sample PDF-->
+                </div>
+                <!--End Generator Body-->
+            </div>
+            <!--End of Generator Card-->
+        </section>
+        <!---------------------------------End of Coverpage Generator---------------------------->
+
+        <!---------------------------------Start of Class Routine Page--------------------------->
+        <section class="class-routine-page" id="page">
+            <div class="go-back-btn">go back</div>
+            <div class="routine-whole">
+                <div class="header">
+                    <div class="main-header">
+                        Class Routine
+                    </div>
+                    <div class="sub-header">
+                        Class routine for BIM 3rd Sem section A
+                    </div>
+                </div>
+                <div class="class-routine-body">
+                    <table class="routine">
+                        <tr class="routine-row">
+                            <td class="routine-cell routine-base" colspan="2">Time</td>
+                            <td class="routine-cell routine-header routine-day">Mon</td>
+                            <td class="routine-cell routine-header routine-day">Tue</td>
+                            <td class="routine-cell routine-header routine-day">Wed</td>
+                            <td class="routine-cell routine-header routine-day">Thu</td>
+                            <td class="routine-cell routine-header routine-day">Fri</td>
+                        </tr>
+                        <tr class="routine-row">
+                            <td rowspan="2" class="routine-cell routine-time">6:15</td>
+                            <td class="routine-cell routine-header">Sub</td>
+                            <td class="routine-cell">FA</td>
+                            <td class="routine-cell">FA</td>
+                            <td class="routine-cell">WTI</td>
+                            <td class="routine-cell">MPCA</td>
+                            <td class="routine-cell">WTI</td>
+                        </tr>
+                        <tr class="routine-row">
+                            <td class="routine-cell routine-header">Room</td>
+                            <td class="routine-cell room-no">424</td>
+                            <td class="routine-cell room-no">424</td>
+                            <td class="routine-cell room-no">Lab-B</td>
+                            <td class="routine-cell room-no">Lab-B</td>
+                            <td class="routine-cell room-no">424</td>
+                        </tr>
+                        <tr class="routine-row">
+                            <td rowspan="2" class="routine-cell routine-time">7:45</td>
+                            <td class="routine-cell routine-header">Sub</td>
+                            <td class="routine-cell">DSA</td>
+                            <td class="routine-cell">DSA</td>
+                            <td class="routine-cell">DSA</td>
+                            <td class="routine-cell">WTI</td>
+                            <td class="routine-cell">B.Stat</td>
+                        </tr>
+                        <tr class="routine-row">
+                            <td class="routine-cell routine-header">Room</td>
+                            <td class="routine-cell room-no">424</td>
+                            <td class="routine-cell room-no">Lab-D</td>
+                            <td class="routine-cell room-no">424</td>
+                            <td class="routine-cell room-no">424</td>
+                            <td class="routine-cell room-no">424</td>
+                        </tr>
+                        <tr class="routine-row">
+                            <td rowspan="2" class="routine-cell routine-time">9:30</td>
+                            <td class="routine-cell routine-header">Sub</td>
+                            <td class="routine-cell">B.Stat</td>
+                            <td class="routine-cell">B.Stat</td>
+                            <td class="routine-cell">MPCA</td>
+                            <td class="routine-cell">FA</td>
+                            <td class="routine-cell">MPCA</td>
+                        </tr>
+                        <tr class="routine-row">
+                            <td class="routine-cell routine-header">Room</td>
+                            <td class="routine-cell room-no">Lab-D</td>
+                            <td class="routine-cell room-no">424</td>
+                            <td class="routine-cell room-no">424</td>
+                            <td class="routine-cell room-no">424</td>
+                            <td class="routine-cell room-no">424</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="routine-whole">
+                <div class="header">
+                    <div class="sub-header">
+                        Class routine for BIM 3rd Sem section B
+                    </div>
+                </div>
+                <div class="class-routine-body">
+                    <table class="routine">
+                        <tr class="routine-row">
+                            <td class="routine-cell routine-base" colspan="2">Time</td>
+                            <td class="routine-cell routine-header routine-day-b">Mon</td>
+                            <td class="routine-cell routine-header routine-day-b">Tue</td>
+                            <td class="routine-cell routine-header routine-day-b">Wed</td>
+                            <td class="routine-cell routine-header routine-day-b">Thu</td>
+                            <td class="routine-cell routine-header routine-day-b">Fri</td>
+                        </tr>
+                        <tr class="routine-row">
+                            <td class="routine-cell routine-time" rowspan="2">6:15</td>
+                            <td class="routine-cell routine-header">Sub</td>
+                            <td class="routine-cell">B.Stat</td>
+                            <td class="routine-cell">MPCA</td>
+                            <td class="routine-cell">FA</td>
+                            <td class="routine-cell">FA</td>
+                            <td class="routine-cell">DSA</td>
+                        </tr>
+                        <tr class="routine-row">
+                            <td class="routine-cell routine-header">Room</td>
+                            <td class="routine-cell room-no">425</td>
+                            <td class="routine-cell room-no">425</td>
+                            <td class="routine-cell room-no">425</td>
+                            <td class="routine-cell room-no">425</td>
+                            <td class="routine-cell room-no">425</td>
+                        </tr>
+                        <tr class="routine-row">
+                            <td class="routine-cell routine-time" rowspan="2">7:45</td>
+                            <td class="routine-cell routine-header">Sub</td>
+                            <td class="routine-cell">WTI</td>
+                            <td class="routine-cell">WTI</td>
+                            <td class="routine-cell">WTI</td>
+                            <td class="routine-cell">DSA</td>
+                            <td class="routine-cell">FA</td>
+                        </tr>
+                        <tr class="routine-row">
+                            <td class="routine-cell routine-header">Room</td>
+                            <td class="routine-cell room-no">425</td>
+                            <td class="routine-cell room-no">Lab-B</td>
+                            <td class="routine-cell room-no">425</td>
+                            <td class="routine-cell room-no">Lab-D</td>
+                            <td class="routine-cell room-no">425</td>
+                        </tr>
+                        <tr class="routine-row">
+                            <td class="routine-cell routine-time" rowspan="2">9:30</td>
+                            <td class="routine-cell routine-header">Sub</td>
+                            <td class="routine-cell">MPCA</td>
+                            <td class="routine-cell">DSA</td>
+                            <td class="routine-cell">B.Stat</td>
+                            <td class="routine-cell">MPCA</td>
+                            <td class="routine-cell">B.Stat</td>
+                        </tr>
+                        <tr class="routine-row">
+                            <td class="routine-cell routine-header">Room</td>
+                            <td class="routine-cell room-no">Lab-B</td>
+                            <td class="routine-cell room-no">425</td>
+                            <td class="routine-cell room-no">Lab-D</td>
+                            <td class="routine-cell room-no">425</td>
+                            <td class="routine-cell room-no">425</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <!---------------------------------End of Class Routine Page----------------------------->
+
+        <!----------------------------------Start of Syllabus page---------------------------------->
+        <section class="syllabus-page" id="page">
+            <div class="go-back-btn">go back</div>
+            <div class="header">
+                <div class="main-header">
+                    Syllabus
+                </div>
+                <div class="sub-header">
+                    Syllabus for 1-8 semesters
+                </div>
+            </div>
+            <div class="syllabus-body">
+                <ul class="semester-options">
+                    <li class="semester-option"><a href="syllabus/2nd-sem.pdf" target="_blank">2</a></li>
+                    <li class="semester-option"><a href="syllabus/3rd-sem.pdf" target="_blank">3</a></li>
+                    <li class="semester-option syllabus-1-8"><a href="syllabus/whole-syllabus.pdf" target="_blank">BIM-COURSE-STRUCTURE.pdf</a></li>
+                </ul>
+            </div>
+        </section>
+        <!--------------------------------------End of Syllabus page--------------------------------->
+
+        </section>
+    <!--End of everything-->
+
+</body>
+    <script src="Scripts/loader.js"></script>
+    <script src="Scripts/search.js"></script>
+    <script src="Scripts/menu.js"></script>
+    <script src="Scripts/page.js"></script>
+    <script src="Scripts/coverpage-js/pdf.js"></script>
+    <script src="Scripts/coverpage-js/option.js"></script>
+    <script src="Scripts/coverpage-js/data.js"></script>
+    <script src="Scripts/class-routine-js/routine.js"></script>
+</html>
